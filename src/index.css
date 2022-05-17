@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  --bg-opacity: 1;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+.dark .dark\:bg-primary {
+  --bg-opacity: 1;
+  background-color: #12181b;
+  background-color: rgba(18, 24, 27, var(--bg-opacity));
+}
+.bg-secondary {
+  --bg-opacity: 1;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+.dark .dark\:bg-secondary {
+  --bg-opacity: 1;
+  background-color: #2a2e35;
+  background-color: rgba(42, 46, 53, var(--bg-opacity));
+}
