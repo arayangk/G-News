@@ -26,7 +26,7 @@ const Header = ({setdarkmode, darkmode}) =>{
                   onClick={(e) => {
                     e.preventDefault();
                     setOpenTab(1);
-                    setdarkmode(!darkmode)
+                    setdarkmode(false)
                   }}
                   data-toggle="tab"
                   href="#link1"
@@ -46,7 +46,7 @@ const Header = ({setdarkmode, darkmode}) =>{
                   onClick={(e) => {
                     e.preventDefault();
                     setOpenTab(2);
-                    setdarkmode(!darkmode)
+                    setdarkmode(true)
                   }}
                   data-toggle="tab"
                   href="#link2"
