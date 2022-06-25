@@ -6,8 +6,8 @@ const Footer = () => {
         <>
         
   <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-    <p className="dark:text-white text-black text-sm text-center sm:text-left">© 2022 —
-      <a href="https://linkedin.com/in/giasuddin-sk-09b38a17b" rel="noopener noreferrer" className="text-gray-400 ml-1" target="_blank">@ Created using React & Tailwind by-Gias Sk</a>
+    <p className="dark:text-white text-black text-sm text-center sm:text-left">© 2022 — @ Created using React & Tailwind by- 
+      <strong><a href="https://giassk.vercel.app/" target='_blank' rel="noreferrer" className="text-green-600 ml-1"> Gias Sk</a></strong>
     </p>
     
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
